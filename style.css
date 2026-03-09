@@ -408,38 +408,86 @@ section[id] {
 
 /* ============ AWARDS BAR ============ */
 
-.awards-bar {
+.trust-bar {
   background: var(--light-bg);
+  border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  padding: 20px 0;
+  padding: 48px 0;
 }
 
-.awards-bar__inner {
+.trust-bar__heading {
   display: flex;
   align-items: center;
-  gap: 32px;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
 }
 
-.awards-bar__label {
+.trust-bar__cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trust-bar__cards--center {
+  margin-top: 16px;
+}
+
+.trust-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 20px;
+  min-width: 200px;
+  max-width: 260px;
+  flex: 1;
+}
+
+.trust-card__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.trust-card__icon--g { background: #4285F4; }
+.trust-card__icon--num { font-size: 14px; }
+
+.trust-card__label {
+  font-size: 10px;
   font-weight: 700;
-  font-size: 13px;
+  letter-spacing: 0.08em;
   color: var(--text-muted);
-  white-space: nowrap;
+  text-transform: uppercase;
 }
 
-.awards-bar__logos {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  flex-wrap: wrap;
+.trust-card__value {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 2px 0;
 }
 
-.awards-bar__logos img {
-  max-height: 72px;
-  width: auto;
-  object-fit: contain;
-  border-radius: 6px;
+.trust-card__stars {
+  color: #f59e0b;
+  font-size: 12px;
+}
+
+.trust-card__sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
 }
 
 /* ============ SERVICES ============ */
