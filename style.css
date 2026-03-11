@@ -881,10 +881,15 @@ a.trust-card:hover {
 .reviews__header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
   margin-bottom: 3rem;
   flex-wrap: wrap;
+}
+
+.reviews__header > div:first-child {
+  flex: 1;
+  min-width: 260px;
 }
 
 .reviews__score-card {
