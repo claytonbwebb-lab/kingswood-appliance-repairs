@@ -609,7 +609,7 @@ a.trust-card:hover {
   width: 155px;
   position: absolute;
   top: 12px;
-  right: -10px;
+  right: 12px;
 }
 
 .why-us__stat-card {
