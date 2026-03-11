@@ -1487,3 +1487,12 @@ a.trust-card:hover {
     max-width: 90px;
   }
 }
+
+@media (max-width: 768px) {
+  .david-photo {
+    position: static;
+    float: right;
+    width: 120px;
+    margin: 0 0 10px 14px;
+  }
+}
