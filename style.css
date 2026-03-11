@@ -881,7 +881,7 @@ a.trust-card:hover {
 .reviews__header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
   margin-bottom: 3rem;
   flex-wrap: wrap;
