@@ -605,6 +605,13 @@ a.trust-card:hover {
   margin-bottom: 32px;
 }
 
+.david-photo {
+  width: 220px;
+  max-width: 100%;
+  margin-bottom: 28px;
+  display: block;
+}
+
 /* Enhanced stat card */
 .why-us__stat-card {
   background: var(--navy);
