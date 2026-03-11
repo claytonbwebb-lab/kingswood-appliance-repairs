@@ -122,6 +122,16 @@ section[id] {
   border-color: var(--navy-dark);
 }
 
+.btn--red {
+  background: var(--red);
+  color: var(--white);
+  border-color: var(--red);
+}
+.btn--red:hover {
+  background: #a93226;
+  border-color: #a93226;
+}
+
 .btn--gold {
   background: var(--gold);
   color: var(--white);
