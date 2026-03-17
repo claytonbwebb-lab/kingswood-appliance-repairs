@@ -320,7 +320,7 @@ section[id] {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url('images/dave-van-hero.jpg') center 60% / cover no-repeat;
+  background: url('images/dave-van-hero.jpg') center 35% / cover no-repeat;
 }
 
 .hero__overlay {
