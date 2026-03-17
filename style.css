@@ -494,6 +494,7 @@ a.trust-card:hover {
 .trust-card__icon--gold  { background: #D4A017; }
 .trust-card__icon--green { background: #27AE60; }
 .trust-card__icon--red   { background: #C0392B; }
+.trust-card__icon--fb    { background: #1877F2; }
 .trust-card__icon--teal  { background: #0D9488; }
 .trust-card__icon--num   { font-size: 14px; }
 
