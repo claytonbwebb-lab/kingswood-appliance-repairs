@@ -629,10 +629,10 @@ a.trust-card:hover {
 }
 
 .david-photo {
-  width: 155px;
+  width: 185px;
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: -10px;
+  right: -10px;
 }
 
 .why-us__stat-card {
