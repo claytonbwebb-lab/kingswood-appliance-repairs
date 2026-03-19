@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://kingswood-appliance-repairs.vercel.app/sitemap.xml
+Sitemap: https://www.kingswoodappliancerepairs.co.uk/sitemap.xml
