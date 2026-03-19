@@ -342,9 +342,9 @@ section[id] {
 
 .hero__badge {
   display: inline-block;
-  background: rgba(212, 160, 23, 0.2);
-  border: 1px solid var(--gold);
-  color: var(--gold);
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #fff;
+  color: #fff;
   font-size: 13px;
   font-weight: 700;
   padding: 8px 18px;
